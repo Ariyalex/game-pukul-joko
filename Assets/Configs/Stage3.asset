@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ad7953dc8917ad42ab49136a7e4d693, type: 3}
+  m_Name: Stage3
+  m_EditorClassIdentifier: Assembly-CSharp::StageConfig
+  stageIndex: 3
+  roundDuration: 30
+  allowedTypes:
+  - {fileID: 11400000, guid: 1a5f4f7e75de23443ba4f78106f7ea91, type: 2}
+  - {fileID: 11400000, guid: 87a9745009c2b4d44be560e2e85a769c, type: 2}
+  - {fileID: 11400000, guid: 7d4fa7ef8abdce649935b6667665429d, type: 2}
+  spawnWeights:
+  - 0.55
+  - 0.25
+  - 0.2

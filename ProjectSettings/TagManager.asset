@@ -2,7 +2,7 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!78 &1
 TagManager:
-  serializedVersion: 2
+  serializedVersion: 3
   tags: []
   layers:
   - Default
@@ -41,3 +41,18 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Background
+    uniqueID: 332801758
+    locked: 0
+  - name: HoleBack
+    uniqueID: 922496569
+    locked: 0
+  - name: Object
+    uniqueID: 2051284657
+    locked: 0
+  - name: HoleFront
+    uniqueID: 1052454363
+    locked: 0
+  m_RenderingLayers:
+  - Default
+  m_MigratedRenderPipelines: []
