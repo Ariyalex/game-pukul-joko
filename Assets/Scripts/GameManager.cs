@@ -56,6 +56,15 @@ public class GameManager : MonoBehaviour
         _strikes = 0;
         _timeLeft = _activeStage != null ? _activeStage.roundDuration : 30f;
 
+        // Play stage start sound
+        if (_activeStage != null)
+        {
+            if (_activeStage.stageIndex == 1 || _activeStage.stageIndex == 2)
+                AudioManager.Instance?.PlaySFX("StartStage12");
+            else if (_activeStage.stageIndex == 3)
+                AudioManager.Instance?.PlaySFX("StartStage3");
+        }
+
         // Initialise UI.
         if (uiManager != null)
         {
@@ -134,7 +143,6 @@ public class GameManager : MonoBehaviour
         if (CurrentState != GameState.Playing) return;
 
         _strikes++;
-        AudioManager.Instance?.PlaySFX("Strike");
         uiManager?.SetStrikes(_strikes);
 
         if (_strikes >= MaxStrikes)

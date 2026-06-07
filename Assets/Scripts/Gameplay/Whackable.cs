@@ -65,6 +65,10 @@ KillTweens();
         transform.DOLocalMoveY(_shownY, popDuration).SetEase(Ease.OutBack);
         SetInteractable(true);
 
+        // Play appear sound
+        if (_config.type == WhackableType.Normal) AudioManager.Instance?.PlaySFX("NormalAppear");
+        else if (_config.type == WhackableType.Tough) AudioManager.Instance?.PlaySFX("ToughAppear");
+
         // Auto-hide if the player ignores it.
         _autoHideTween = DOVirtual.DelayedCall(stayDuration, () =>
         {
@@ -81,7 +85,7 @@ KillTweens();
         if (_config.isPenalty)
         {
             SetInteractable(false);
-            AudioManager.Instance?.PlaySFX("Bomb");
+            AudioManager.Instance?.PlaySFX("Hit");
             GameManager.Instance?.RegisterPenalty();
             transform.DOShakePosition(0.25f, 0.3f, 20, 90, false, true);
             ShowHit();
@@ -109,7 +113,7 @@ KillTweens();
 
         // Defeated.
         SetInteractable(false);
-        AudioManager.Instance?.PlaySFX("Defeat");
+        AudioManager.Instance?.PlaySFX("Hit");
         ShowHit();
         if (stars != null) stars.Play();
         transform.DOPunchScale(Vector3.one * 0.25f, 0.18f, 8, 0.6f);

@@ -17,8 +17,8 @@ MonoBehaviour:
   scoreValue: 0
   isPenalty: 1
   skipScoreBonus: 5
-  normalSprite: {fileID: 21300000, guid: 7ad70431bd3c8184798b3fea25a2cc96, type: 3}
-  damagedSprite: {fileID: 21300000, guid: ad809980f0339e84d80825ce64cea6f4, type: 3}
-  hitSprite: {fileID: 21300000, guid: ad809980f0339e84d80825ce64cea6f4, type: 3}
+  normalSprite: {fileID: 21300000, guid: 270662a2564e0a241b44ba4eadb9d4f8, type: 3}
+  damagedSprite: {fileID: 21300000, guid: 0c54eed500b528147a1b762b4bca5b9e, type: 3}
+  hitSprite: {fileID: 21300000, guid: 0c54eed500b528147a1b762b4bca5b9e, type: 3}
   greyboxColor: {r: 1, g: 1, b: 1, a: 1}
   hitColor: {r: 1, g: 1, b: 1, a: 1}

@@ -17,13 +17,13 @@ public class UIManager : MonoBehaviour
     [SerializeField] private TextMeshProUGUI countdownText;
 
     [Header("Strike Indicator")]
-[Tooltip("One image per strike slot (left to right). Filled when used.")]
+    [Tooltip("One image per strike slot (left to right). Filled when used.")]
     [SerializeField] private Image[] strikeIcons;
-    [SerializeField] private Color strikeEmptyColor = new Color(1f, 1f, 1f, 0.25f);
-    [SerializeField] private Color strikeFilledColor = Color.red;
+    [SerializeField] private Sprite normalStrikeSprite;
+    [SerializeField] private Sprite penaltyStrikeSprite;
 
     [Header("Game Over")]
-    [SerializeField] private GameObject gameOverPanel;
+[SerializeField] private GameObject gameOverPanel;
     [SerializeField] private TextMeshProUGUI gameOverTitleText;
     [SerializeField] private TextMeshProUGUI finalScoreText;
     [SerializeField] private Button retryButton;
@@ -73,13 +73,14 @@ public class UIManager : MonoBehaviour
     }
 
     /// <summary>Updates strike icons; first <paramref name="strikes"/> slots become filled.</summary>
-public void SetStrikes(int strikes)
+    public void SetStrikes(int strikes)
     {
         if (strikeIcons == null) return;
         for (int i = 0; i < strikeIcons.Length; i++)
         {
             if (strikeIcons[i] == null) continue;
-            strikeIcons[i].color = i < strikes ? strikeFilledColor : strikeEmptyColor;
+            strikeIcons[i].sprite = i < strikes ? penaltyStrikeSprite : normalStrikeSprite;
+            strikeIcons[i].color = Color.white;
         }
     }
 
