@@ -143,7 +143,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SpriteMaskUtility_HasSpriteMaskInLayerRa
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 74414
+// Method Definition Index: 74017
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EmbeddedAttribute__ctor_m6D304AD5293B8A76BD9CCDC8984253182FD5476D (EmbeddedAttribute_tC1EFE339FB14BE608943A1F4001F22A30C53873C* __this, const RuntimeMethod* method) 
 {
 	{
@@ -159,7 +159,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EmbeddedAttribute__ctor_m6D304AD5293B8A7
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 74415
+// Method Definition Index: 74018
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RefSafetyRulesAttribute__ctor_mCEDCFCA0E2A72F2FF6F27D117E92FF8AE5157D13 (RefSafetyRulesAttribute_t73AF31CAA47D9F0EB94F80C14120729B39CDA8C4* __this, int32_t ___0_p, const RuntimeMethod* method) 
 {
 	{
@@ -177,7 +177,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RefSafetyRulesAttribute__ctor_mCEDCFCA0E
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 74416
+// Method Definition Index: 74019
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpriteMask_set_frontSortingLayerID_m023C6504B9363E89DC2528FA83D82208192E8198 (SpriteMask_tB723EAFFAEACE86D32C80726CE63B19FE6C6F2B3* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -213,7 +213,7 @@ IL_000f:
 		return;
 	}
 }
-// Method Definition Index: 74417
+// Method Definition Index: 74020
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpriteMask_set_frontSortingOrder_mBB6C461477D2D11F95CC0CB7398BC8A3AD3E98BC (SpriteMask_tB723EAFFAEACE86D32C80726CE63B19FE6C6F2B3* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -249,7 +249,7 @@ IL_000f:
 		return;
 	}
 }
-// Method Definition Index: 74418
+// Method Definition Index: 74021
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpriteMask_set_backSortingLayerID_m9DB8BA104EF7F184A3AA55B6DCDDCBF40E103D7B (SpriteMask_tB723EAFFAEACE86D32C80726CE63B19FE6C6F2B3* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -285,7 +285,7 @@ IL_000f:
 		return;
 	}
 }
-// Method Definition Index: 74419
+// Method Definition Index: 74022
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpriteMask_set_backSortingOrder_m383FEC8838B334E961536C2477B80437CF401839 (SpriteMask_tB723EAFFAEACE86D32C80726CE63B19FE6C6F2B3* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -321,7 +321,7 @@ IL_000f:
 		return;
 	}
 }
-// Method Definition Index: 74420
+// Method Definition Index: 74023
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpriteMask_set_isCustomRangeActive_mDE57CE93CF78D45E83BDF3F4DF6330D5EE778F3D (SpriteMask_tB723EAFFAEACE86D32C80726CE63B19FE6C6F2B3* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -357,7 +357,7 @@ IL_000f:
 		return;
 	}
 }
-// Method Definition Index: 74421
+// Method Definition Index: 74024
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpriteMask__ctor_mE8AD60D949B00F8FF8DEFCB43563FEFEF86C612D (SpriteMask_tB723EAFFAEACE86D32C80726CE63B19FE6C6F2B3* __this, const RuntimeMethod* method) 
 {
 	{
@@ -365,7 +365,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpriteMask__ctor_mE8AD60D949B00F8FF8DEFC
 		return;
 	}
 }
-// Method Definition Index: 74422
+// Method Definition Index: 74025
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpriteMask_set_frontSortingLayerID_Injected_mB585FAA80E8F2321FADD3D611D319AFC699303A5 (intptr_t ___0__unity_self, int32_t ___1_value, const RuntimeMethod* method) 
 {
 	typedef void (*SpriteMask_set_frontSortingLayerID_Injected_mB585FAA80E8F2321FADD3D611D319AFC699303A5_ftn) (intptr_t, int32_t);
@@ -374,7 +374,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpriteMask_set_frontSortingLayerID_Injec
 	_il2cpp_icall_func = (SpriteMask_set_frontSortingLayerID_Injected_mB585FAA80E8F2321FADD3D611D319AFC699303A5_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.SpriteMask::set_frontSortingLayerID_Injected(System.IntPtr,System.Int32)");
 	_il2cpp_icall_func(___0__unity_self, ___1_value);
 }
-// Method Definition Index: 74423
+// Method Definition Index: 74026
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpriteMask_set_frontSortingOrder_Injected_m0B6924A4103F3EF68187AE7F0986F82AB3634DF1 (intptr_t ___0__unity_self, int32_t ___1_value, const RuntimeMethod* method) 
 {
 	typedef void (*SpriteMask_set_frontSortingOrder_Injected_m0B6924A4103F3EF68187AE7F0986F82AB3634DF1_ftn) (intptr_t, int32_t);
@@ -383,7 +383,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpriteMask_set_frontSortingOrder_Injecte
 	_il2cpp_icall_func = (SpriteMask_set_frontSortingOrder_Injected_m0B6924A4103F3EF68187AE7F0986F82AB3634DF1_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.SpriteMask::set_frontSortingOrder_Injected(System.IntPtr,System.Int32)");
 	_il2cpp_icall_func(___0__unity_self, ___1_value);
 }
-// Method Definition Index: 74424
+// Method Definition Index: 74027
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpriteMask_set_backSortingLayerID_Injected_m88760C086F1EF924F0BF3501719F37CFAEA7C909 (intptr_t ___0__unity_self, int32_t ___1_value, const RuntimeMethod* method) 
 {
 	typedef void (*SpriteMask_set_backSortingLayerID_Injected_m88760C086F1EF924F0BF3501719F37CFAEA7C909_ftn) (intptr_t, int32_t);
@@ -392,7 +392,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpriteMask_set_backSortingLayerID_Inject
 	_il2cpp_icall_func = (SpriteMask_set_backSortingLayerID_Injected_m88760C086F1EF924F0BF3501719F37CFAEA7C909_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.SpriteMask::set_backSortingLayerID_Injected(System.IntPtr,System.Int32)");
 	_il2cpp_icall_func(___0__unity_self, ___1_value);
 }
-// Method Definition Index: 74425
+// Method Definition Index: 74028
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpriteMask_set_backSortingOrder_Injected_mEAB5686CA262E97E3DFD39D9BD7312188AF99071 (intptr_t ___0__unity_self, int32_t ___1_value, const RuntimeMethod* method) 
 {
 	typedef void (*SpriteMask_set_backSortingOrder_Injected_mEAB5686CA262E97E3DFD39D9BD7312188AF99071_ftn) (intptr_t, int32_t);
@@ -401,7 +401,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpriteMask_set_backSortingOrder_Injected
 	_il2cpp_icall_func = (SpriteMask_set_backSortingOrder_Injected_mEAB5686CA262E97E3DFD39D9BD7312188AF99071_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.SpriteMask::set_backSortingOrder_Injected(System.IntPtr,System.Int32)");
 	_il2cpp_icall_func(___0__unity_self, ___1_value);
 }
-// Method Definition Index: 74426
+// Method Definition Index: 74029
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpriteMask_set_isCustomRangeActive_Injected_m8676834E08C04C03C885CB7ED40BB7CDADE794F6 (intptr_t ___0__unity_self, bool ___1_value, const RuntimeMethod* method) 
 {
 	typedef void (*SpriteMask_set_isCustomRangeActive_Injected_m8676834E08C04C03C885CB7ED40BB7CDADE794F6_ftn) (intptr_t, bool);
@@ -418,7 +418,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpriteMask_set_isCustomRangeActive_Injec
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 74427
+// Method Definition Index: 74030
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SpriteMaskUtility_HasSpriteMaskInLayerRange_m7E522D077F4992310FECE3D2911B0C1EE1F72F6B (SortingLayerRange_t96D04CFB4E8824978FEB2CFFFCFEAC37E56D52C9 ___0_range, const RuntimeMethod* method) 
 {
 	{
@@ -427,7 +427,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SpriteMaskUtility_HasSpriteMaskInLayerRa
 		return L_0;
 	}
 }
-// Method Definition Index: 74428
+// Method Definition Index: 74031
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SpriteMaskUtility_HasSpriteMaskInLayerRange_Injected_m2C4AA54A7B3110F8F11DEEA22FBA36A1CC77B7CD (SortingLayerRange_t96D04CFB4E8824978FEB2CFFFCFEAC37E56D52C9* ___0_range, const RuntimeMethod* method) 
 {
 	typedef bool (*SpriteMaskUtility_HasSpriteMaskInLayerRange_Injected_m2C4AA54A7B3110F8F11DEEA22FBA36A1CC77B7CD_ftn) (SortingLayerRange_t96D04CFB4E8824978FEB2CFFFCFEAC37E56D52C9*);
@@ -440,7 +440,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SpriteMaskUtility_HasSpriteMaskInLayerRa
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-// Method Definition Index: 36215
+// Method Definition Index: 36195
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR intptr_t MarshalledUnityObject_MarshalNotNull_TisRuntimeObject_mEB1AA6B672D00242BB9DCE007056EC0E9C8DB075_gshared_inline (RuntimeObject* ___0_obj, const RuntimeMethod* method) 
 {
 	{
